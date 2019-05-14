@@ -1,46 +1,44 @@
 # LAB - 
 
-## Project Name
+## Node Ecosystem
 
 ### Author: Student/Group Name
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [travis](https://www.travis-ci.com/401-advanced-javascript-js/lab-01-node-ecosystem)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `arithmetic.js`
+##### arithmetic methods: add, subtract, multiply, divide
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `add(number, number) -> number`
+add(1, 4) -> 5
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `subtract(number, number) -> number`
+subtract(5, 2) -> 3
+
+###### `multiply(number, number) -> number`
+multiply(2, 6) -> 12
+
+###### `divide(number, number) -> number`
+divide(12, 6) -> 2
+divide(3, 0) -> null
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
   
 #### Tests
 * How do you run tests?
+
+    `npm test`
+
 * What assertions were made?
+
+    multiply and divide methods, tests for arithmetic and greet
+
 * What assertions need to be / should be made?
 
-#### UML
-Link to an image of the UML for your application and response to events
+    refactoring of add, subtract and multiply methods
