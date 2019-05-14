@@ -5,7 +5,7 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [submission PR](https://github.com/401-advanced-javascript-js/lab-01-node-ecosystem/pull/1)
+* [submission PR](https://github.com/401-advanced-javascript-js/lab-01-node-ecosystem/pull/2)
 * [travis](https://www.travis-ci.com/401-advanced-javascript-js/lab-01-node-ecosystem)
 
 ### Modules
